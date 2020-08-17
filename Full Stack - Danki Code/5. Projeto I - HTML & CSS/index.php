@@ -1,3 +1,5 @@
+<?php include('config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,7 +8,7 @@
     <meta name="decription" content="">
     <meta name="keywords" content="key,words,pso">
     <title>Web I</title>
-    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>style/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link href='style/styles.css' rel='stylesheet'>
 </head>
@@ -14,24 +16,24 @@
 
     <header>
         <div class='center'>
-            <div class="logo left">Logo</div>
+            <div class="logo left"><a href='#'>Logo</a></div>
             <nav class='desktop right'>
                 <ul>    
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Sobre</a></li>
-                    <li><a href='#'>Blog</a></li>
-                    <li><a href='#'>Contato</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>#'>Home</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>sobre'>Sobre</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>servicos'>Blog</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>contato'>Contato</a></li>
                 </ul>
             </nav>
             <nav class='mobile right'>
                 <div class='mobile-menu'>
-                    <i class='fa fa-css3' aria-hidden='true'></i>
+                    <i class='fa fa-bars' aria-hidden='true'></i>
                 </div>
                 <ul>    
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>Sobre</a></li>
-                    <li><a href='#'>Blog</a></li>
-                    <li><a href='#'>Contato</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>#'>Home</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>sobre'>Sobre</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>servicos'>Blog</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>contato'>Contato</a></li>
                 </ul>
             </nav>
             <div class='clear'></div>
@@ -62,7 +64,7 @@
             </div>
 
             <div class='w50 left'>
-                <img class='right' src='img/picture.png'>
+                <img class='right' src='<?php echo INCLUDE_PATH; ?>img/picture.png'>
             </div>   
             <div class='clear'></div> 
         </div>
@@ -172,6 +174,8 @@
 
     </footer>
 
+    <script src='<?php echo INCLUDE_PATH; ?>js/jquery.js'></script>
+    <script src='<?php echo INCLUDE_PATH; ?>js/scripts.js'></script>
     
 </body>
 </html>
