@@ -74,7 +74,7 @@
             <h2 class='title'></h2>
             <div class="w33 left box-especialidade">
                 <h3><i class='fa fa-css3' aria-hidden='true'></i></h3>
-                <h3>CSS3</h3>
+                <h4>CSS3</h4>
                 <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
                 Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
@@ -85,7 +85,7 @@
             </div>
             <div class="w33 left box-especialidade">
                 <h3><i class='fa fa-html5' aria-hidden='true'></i></h3>
-                <h3>HTML5</h3>
+                <h4>HTML5</h4>
                 <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
                 Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
@@ -96,7 +96,7 @@
             </div>
             <div class="w33 left box-especialidade">
                 <h3><i class='fa fa-gg-circle' aria-hidden='true'></i></h3>
-                <h3>JS</h3>
+                <h4>JS</h4>
                 <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
                 Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
@@ -105,40 +105,40 @@
                 Ut ut hendrerit diam. Donec commodo varius malesuada.
                 </p>
             </div>
-
+            <div class='clear'></div>
         </div>
     </section>
     <section class='extras'>
         <div class="center">
 
-            <div class="w50 left">
+            <div class="w50 left panel-depoimentos">
                 <h2 class='title'>Depoimentos</h2>
                 <div class="depoimento-single">
-                    <p class='depoimentos-descricao'>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
+                    <p class='depoimentos-descricao'>"Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
                 Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec.
+                orci viverra nec."
                     </p>
                     <p class='nome-autor'>Lorem Ipsum</p>
                 </div>
                 <div class="depoimento-single">
-                    <p class='depoimentos-descricao'>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
+                    <p class='depoimentos-descricao'>"Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
                 Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec.
+                orci viverra nec."
                     </p>
                     <p class='nome-autor'>Lorem Ipsum</p>
                 </div>
                 <div class="depoimento-single">
-                    <p class='depoimentos-descricao'>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
+                    <p class='depoimentos-descricao'>"Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
                 Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec.
+                orci viverra nec."
                     </p>
                     <p class='nome-autor'>Lorem Ipsum</p>
                 </div>
             </div>
-            <div class="w50 left">
+            <div class="w50 left panel-servicos">
                 <h2 class='title'>Serviços</h2>
                 <div class="servicos">
                     <ul>
