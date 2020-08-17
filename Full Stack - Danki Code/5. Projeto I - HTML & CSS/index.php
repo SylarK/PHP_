@@ -13,7 +13,6 @@
     <link href='style/styles.css' rel='stylesheet'>
 </head>
 <body>
-
     <header>
         <div class='center'>
             <div class="logo left"><a href='#'>Logo</a></div>
