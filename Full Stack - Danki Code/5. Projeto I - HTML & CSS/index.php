@@ -14,8 +14,8 @@
 
     <header>
         <div class='center'>
-            <div class="logo">Logo</div>
-            <nav class='desktop'>
+            <div class="logo left">Logo</div>
+            <nav class='desktop right'>
                 <ul>    
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>Sobre</a></li>
@@ -23,7 +23,10 @@
                     <li><a href='#'>Contato</a></li>
                 </ul>
             </nav>
-            <nav class='mobile'>
+            <nav class='mobile right'>
+                <div class='mobile-menu'>
+                    <i class='fa fa-css3' aria-hidden='true'></i>
+                </div>
                 <ul>    
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>Sobre</a></li>
@@ -31,14 +34,16 @@
                     <li><a href='#'>Contato</a></li>
                 </ul>
             </nav>
+            <div class='clear'></div>
         </div>
     </header>
 
     <section class='banner-principal'>
+        <div class='overlay'></div>
         <div class="center">
             <form>
                 <h2>Digite o seu email: </h2>
-                <input type='text' name='email'>
+                <input type='email' name='email'>
                 <input type='submit' name='acao' value='Cadastrar'>
             </form>
         </div>
@@ -46,8 +51,9 @@
 
     <section class='quem-somos'>
         <div class="center">                         
-            <div class='w50'>
-                <h2>Code Steel</h2>
+            <div class='w50 left'>
+                <h2>Lucas Amado</h2>
+                <!--<h2>Code Steel</h2>-->
                 <p>Sed scelerisque magna pretium auctor sodales. In et viverra metus, nec fermentum ligula. Phasellus quam sapien, fermentum sit amet ullamcorper 
                 ut, tempus ac nulla. Aliquam imperdiet, lacus vitae posuere faucibus, nulla lectus posuere quam, non laoreet magna risus condimentum est. 
                 Pellentesque purus tortor, cursus eget ante quis, pretium tempor erat. Maecenas dignissim justo at laoreet interdum. 
@@ -55,9 +61,10 @@
                 ante justo dignissim massa, et finibus elit purus sed nisi. Sed in risus nulla.</p>
             </div>
 
-            <div class='w50'>
-                <img src='img/picture.png'>
-            </div>    
+            <div class='w50 left'>
+                <img class='right' src='img/picture.png'>
+            </div>   
+            <div class='clear'></div> 
         </div>
 
     </section>
@@ -65,8 +72,8 @@
     <section class='especialidades'>
         <div class="center">
             <h2 class='title'></h2>
-            <div class="box-especialidade">
-                <h3>item1</h3>
+            <div class="w33 left box-especialidade">
+                <h3><i class='fa fa-css3' aria-hidden='true'></i></h3>
                 <h3>CSS3</h3>
                 <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
@@ -76,9 +83,9 @@
                 Ut ut hendrerit diam. Donec commodo varius malesuada.
                 </p>
             </div>
-            <div class="box-especialidade">
-                <h3>item2</h3>
+            <div class="w33 left box-especialidade">
                 <h3><i class='fa fa-html5' aria-hidden='true'></i></h3>
+                <h3>HTML5</h3>
                 <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
                 Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
@@ -87,8 +94,8 @@
                 Ut ut hendrerit diam. Donec commodo varius malesuada.
                 </p>
             </div>
-            <div class="box-especialidade">
-                <h3>item3</h3>
+            <div class="w33 left box-especialidade">
+                <h3><i class='fa fa-gg-circle' aria-hidden='true'></i></h3>
                 <h3>JS</h3>
                 <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
                 Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
@@ -104,7 +111,7 @@
     <section class='extras'>
         <div class="center">
 
-            <div class="w50">
+            <div class="w50 left">
                 <h2 class='title'>Depoimentos</h2>
                 <div class="depoimento-single">
                     <p class='depoimentos-descricao'>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
@@ -131,7 +138,7 @@
                     <p class='nome-autor'>Lorem Ipsum</p>
                 </div>
             </div>
-            <div class="w50">
+            <div class="w50 left">
                 <h2 class='title'>Serviços</h2>
                 <div class="servicos">
                     <ul>
@@ -152,6 +159,7 @@
                 
                 </div>
             </div>
+            <div class='clear'></div> 
         
         </div>
     </section>
