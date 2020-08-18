@@ -1,4 +1,7 @@
-<section class='banner-principal'>
+<section class='banner-container'>
+    <div class='banner-single'></div>
+    <div class='banner-single'></div>
+    <div class='banner-single'></div>
         <div class='overlay'></div>
         <div class="center">
             <form>
@@ -6,6 +9,9 @@
                 <input type='email' name='email'>
                 <input type='submit' name='acao' value='Cadastrar'>
             </form>
+        </div>
+        <div class='bullets'>
+
         </div>
     </section>
 
