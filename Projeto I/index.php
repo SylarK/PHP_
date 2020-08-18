@@ -18,8 +18,8 @@
         /*Pegar URL*/
         $url = isset($_GET['url']) ? $_GET['url'] : 'home';
         switch ($url) {
-            case 'sobre':
-                echo '<target target="sobre"/>';
+            case 'depoimentos':
+                echo '<target target="depoimentos"/>';
                 break;
 
             case 'servicos':
@@ -36,8 +36,8 @@
             <nav class='desktop right'>
                 <ul>    
                     <li><a href='<?php echo INCLUDE_PATH; ?>#'>Home</a></li>
-                    <li><a href='<?php echo INCLUDE_PATH; ?>sobre'>Sobre</a></li>
-                    <li><a href='<?php echo INCLUDE_PATH; ?>servicos'>Blog</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>depoimentos'>Depoimentos</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>servicos'>Servicos</a></li>
                     <li><a href='<?php echo INCLUDE_PATH; ?>contato'>Contato</a></li>
                 </ul>
             </nav>
@@ -47,8 +47,8 @@
                 </div>
                 <ul>    
                     <li><a href='<?php echo INCLUDE_PATH; ?>#'>Home</a></li>
-                    <li><a href='<?php echo INCLUDE_PATH; ?>sobre'>Sobre</a></li>
-                    <li><a href='<?php echo INCLUDE_PATH; ?>servicos'>Blog</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>depoimentos'>Depoimentos</a></li>
+                    <li><a href='<?php echo INCLUDE_PATH; ?>servicos'>servicos</a></li>
                     <li><a href='<?php echo INCLUDE_PATH; ?>contato'>Contato</a></li>
                 </ul>
             </nav>
@@ -67,7 +67,7 @@
             }
         }else {
             /*Caso a página não exista*/
-            if($url!='sobre' && $url!='servicos'){
+            if($url!='depoimentos' && $url!='servicos'){
                 
                 $pagina404 = true;
                 include('pages/404.php');
