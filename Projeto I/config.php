@@ -3,6 +3,7 @@
     $autoload = function($class){
         /*Verificando se a classe adicionada foi a classe Email*/
         if($class == 'Email'){
+            // include - require_once
             include('classes/phpmailer/src/Exception.php');
             include('classes/phpmailer/src/PHPMailer.php');
             include('classes/phpmailer/src/SMTP.php');

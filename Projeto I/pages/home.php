@@ -4,9 +4,11 @@
     <div class='banner-single'></div>
         <div class='overlay'></div>
         <div class="center">
-            <form>
+            
+
+            <form method='post' action=''>
                 <h2>Digite o seu email: </h2>
-                <input type='email' name='email'>
+                <input type='email' name='email' required>
                 <input type='submit' name='acao' value='Cadastrar'>
             </form>
         </div>
