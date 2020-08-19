@@ -32,6 +32,22 @@ $(function(){
         $('html, body').animate({'scrollTop':divScroll}, 2000)
     }
 
+    loadContact();
+    function loadContact(){
+        $('[realtime]').click(function(){
+            var pagina = $(this).attr('realtime');
+            $('.container-principal').hide();
+            $('.container-principal').load(include_path + 'pages/' + pagina + '.php');
+
+            setTimeout(function(){
+                initialize();
+            }, 1000);
+            $('.container-principal').fadeIn(1000);
+
+            return false;  
+        })
+    }
+
     
 
 })

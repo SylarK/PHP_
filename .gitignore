@@ -98,3 +98,4 @@ Thumbs.db
 !.gitignore
 !.editorconfig
 !.phpcs.xml.dist
+Projeto I/classes/Email.php
