@@ -30,37 +30,6 @@
         }
 
     ?>
-    <!-- Chamando classe Email -->
-    <?php
-                
-        if(isset($_POST['acao'])){
-            if ($_POST['email'] != ''){
-
-                $email = $_POST['email'];
-                //Verificar se é um e-mail.
-                if(filter_var($email, FILTER_VALIDATE_EMAIL)){
-                    $mail = new Email('mail.amadodev.com', 'contato@amadodev.com', 'Lucas');
-                    $mail->addAdress('contato@amadodev.com', 'Lucas');
-                    $info = ['subject' => 'Novo e-mail cadastrado no site!', 'body' => $email];
-                    $mail->formatarEmail($info);
-                    if($mail->enviarEmail()){
-                        echo '<script>alert("Email enviado!")</script>';
-                    } else {
-                        echo '<script>alert("Algo deu errado!")</script>';
-                    }
-                } else {
-                    echo '<script>alert("Digite um e-mail válido!")</script>';
-                }
-
-                } /*    Verificação para ver se a varíavel e-mail tem valor é desnecessária
-                        uma vez que no campo email temos o required.
-                else {
-                    echo 'Insira um email válido';
-                }*/
-        }
-
-    ?>
-    <!-- end -->
 
     <?php //new Email() ?>
 
@@ -135,7 +104,8 @@
     <?php
         }
     ?>
-    <script src='<?php echo INCLUDE_PATH; ?>js/exemplo.js'></script>
+    <!--Animacao especialidades : <script src='<?php //echo INCLUDE_PATH; ?>js/exemplo.js'></script>-->
+    <script src='<?php echo INCLUDE_PATH; ?>js/formularios.js'></script>
 
 </body>
 </html>

@@ -4,8 +4,7 @@
     <div class='banner-single'></div>
         <div class='overlay'></div>
         <div class="center">
-            
-
+           
             <form method='post' action=''>
                 <h2>Digite o seu email: </h2>
                 <input type='email' name='email' required>
