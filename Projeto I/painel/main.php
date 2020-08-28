@@ -1,0 +1,1 @@
+<h2>Welcome to control-panel <?php echo $_SESSION['user']; ?></h2>

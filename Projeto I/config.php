@@ -1,4 +1,5 @@
 <?php
+    session_start();
     /*Criando uma função para criar dinamicamente a nossa classe*/
     $autoload = function($class){
         /*Verificando se a classe adicionada foi a classe Email*/
@@ -13,6 +14,13 @@
 
     spl_autoload_register($autoload);
 
-    define('INCLUDE_PATH', 'http://localhost:8090/dashboard/PHP_/Projeto%20I/')
+    define('INCLUDE_PATH', 'http://localhost/PHP_/Projeto%20I/');
+    define('INCLUDE_PATH_PAINEL', INCLUDE_PATH.'painel/');
+
+    //DB
+    define('HOST','localhost');
+    define('USER','root');
+    define('PASSWORD','');
+    define('DATABASE','projeto_01');
 
 ?>
