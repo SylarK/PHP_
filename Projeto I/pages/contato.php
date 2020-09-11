@@ -14,7 +14,7 @@
             $info = ['subject' => $assunto, 'body' => $corpo ];
 
             
-            $mailcontact = new Email('mail.amadodev.com', 'contato@amadodev.com', 'Lucas');
+            $mailcontact = new Email('mail.amadodev.com', 'contato@amadodev.com', 'ZYP@T+RTw.g[', 'Lucas');
             $mailcontact->addAdress('contato@amadodev.com', 'Lucas');
             $mailcontact->formatarEmail($info);
 
