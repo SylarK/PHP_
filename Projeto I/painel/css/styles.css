@@ -56,3 +56,119 @@ html, body{
     border-radius: 5px;
     padding-right: 4px 2%;
 }
+
+/*Painel de Controle*/
+
+.clear{ clear: both;}
+.center{ max-width: 1280px; padding: 0 2%; margin: 0 auto;}
+
+
+
+header{
+    /*float: left;*/
+    position: relative;
+    left: 300px;
+    padding: 10px 0;
+    background: #78909c;
+    width: calc(100% - 300px);
+
+}
+
+.loggout{
+    float: right;
+}
+
+.loggout a{
+    color: white;
+    font-size: 20px;
+}
+
+.menu-btn{
+    float: left;
+    cursor: pointer;
+    font-size: 23px;
+    color: white;
+}
+
+div.menu{
+    overflow-y: auto;
+    height: 100%;
+    padding: 10px;
+    background: #455a64;
+    float: left;
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+div.box-usuario{
+    text-align: center;
+
+}
+
+.avatar-usuario{
+    text-align: left;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px solid #2F3D42;
+}
+
+.avatar-usuario i {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #2F3D42;
+
+}
+
+.nome-usuario{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nome-usuario p{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* Conteúdo do Painel   */
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 48%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.content{
+    width: calc(100% - 300px);
+    position: relative;
+    left: 300px;
+    padding: 10px;
+}
+
+.box-content{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*medias*/
+
