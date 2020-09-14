@@ -15,7 +15,7 @@
             if(isset($_POST['acao'])){
                 $user = $_POST['user'];
                 $password = $_POST['password']; 
-                $sql = Mysql::conectar()->prepare("SELECT * FROM `tb_admin.usuarios` WHERE user = ? AND password = ?");
+                $sql = Mysql::conectar()->prepare("SELECT * FROM `tb_admin.usuario` WHERE user = ? AND password = ?");
                 $sql->execute(array($user, $password));
                 if($sql->rowCount() == 1){
                     $info = $sql->fetch();

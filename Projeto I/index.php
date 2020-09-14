@@ -16,7 +16,7 @@
 <body>
     <base base="<?php echo INCLUDE_PATH; ?>"> 
     <?php
-
+  
         /*Pegar URL*/
         $url = isset($_GET['url']) ? $_GET['url'] : 'home';
         switch ($url) {

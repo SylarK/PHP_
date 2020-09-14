@@ -35,7 +35,21 @@
                 <p><?php echo $_SESSION['nome'] ?></p>
                 <p><?php echo  pegaCargo($_SESSION['cargo']) ?></p>
             </div>
-        </div>
+        </div><!-- end box-usuario -->
+        <div class="items-menu">
+            <h2>Cadastro</h2>
+            <a href="">Cadastrar Depoimento</a>
+            <a href="">Cadastrar Serviço</a>
+            <h2>Gestão</h2>
+            <a href="">Listar Depoimentos</a>
+            <a href="">Listar Serviços</a>
+            <a href="">Listar Slides</a>
+            <h2>Administração do Painel</h2>
+            <a href="">Editar Usuário</a>
+            <a href="">Adicionar Usuário</a>
+            <h2>Configuração Geral</h2>
+            <a href="">Editar</a>
+        </div><!-- end items-menu -->
     </div><!-- end menu-wraper -->
 
 </div><!-- end menu -->
@@ -59,6 +73,30 @@
 <div class='content'>
 
     <div class='box-content left w100'>
+
+                <h2><i class='fa fa-home'></i> Painel de Controle </h2>
+
+                <div class="box-metricas">
+                    <div class="box-metrica-single">
+                        <div class="box-metrica-wraper">
+                            <h2>Usuários Online</h2>
+                            <p>10</p>
+                        </div>
+                    </div><!-- end metrica-single -->
+                    <div class="box-metrica-single">
+                        <div class="box-metrica-wraper">
+                            <h2>Total de Visitas</h2>
+                            <p>100</p>
+                        </div>
+                    </div><!-- end metrica-single -->
+                    <div class="box-metrica-single">
+                        <div class="box-metrica-wraper">
+                            <h2>Visitas Hoje</h2>
+                            <p>8</p>
+                        </div>
+                    </div><!-- end metrica-single -->
+                    <div class='clear'></div>
+                </div><!-- end box-metricas -->
 
     </div><!-- end boxcontent -->
 
