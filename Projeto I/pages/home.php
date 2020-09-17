@@ -36,96 +36,65 @@
 
     </section>
 
-    <section class='especialidades'>
-        <div class="center">
-            <h2 class='title'></h2>
-            <div class="w33 left box-especialidade">
-                <h3><i class='fa fa-css3' aria-hidden='true'></i></h3>
-                <h4>CSS3</h4>
-                <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec. Curabitur porta feugiat sagittis. Pellentesque a porttitor arcu. Duis molestie, justo at hendrerit vehicula, 
-                est felis congue mauris, in tempus dui purus quis turpis. Phasellus rhoncus magna at urna aliquam, sit amet dignissim lectus fringilla. 
-                Ut ut hendrerit diam. Donec commodo varius malesuada.
-                </p>
-            </div>
-            <div class="w33 left box-especialidade">
-                <h3><i class='fa fa-html5' aria-hidden='true'></i></h3>
-                <h4>HTML5</h4>
-                <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec. Curabitur porta feugiat sagittis. Pellentesque a porttitor arcu. Duis molestie, justo at hendrerit vehicula, 
-                est felis congue mauris, in tempus dui purus quis turpis. Phasellus rhoncus magna at urna aliquam, sit amet dignissim lectus fringilla. 
-                Ut ut hendrerit diam. Donec commodo varius malesuada.
-                </p>
-            </div>
-            <div class="w33 left box-especialidade">
-                <h3><i class='fa fa-gg-circle' aria-hidden='true'></i></h3>
-                <h4>JS</h4>
-                <p>Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec. Curabitur porta feugiat sagittis. Pellentesque a porttitor arcu. Duis molestie, justo at hendrerit vehicula, 
-                est felis congue mauris, in tempus dui purus quis turpis. Phasellus rhoncus magna at urna aliquam, sit amet dignissim lectus fringilla. 
-                Ut ut hendrerit diam. Donec commodo varius malesuada.
-                </p>
-            </div>
-            <div class='clear'></div>
-        </div>
-    </section>
-    <section class='extras'>
-        <div class="center">
+        <section class="especialidades">
+                <div class="center">
+                    <h2 class="title">Especialidades</h2>
+                    <div class="w33 left box-especialidade">
+                            <h3><i class="<?php echo $infoSite['icone1']; ?>" aria-hidden="true"></i></h3>
+                            <h4>CSS3</h4>
+                            <p><?php echo $infoSite['descricao1']; ?></p>
+                    </div><!--box-especialidade-->
+                    <div class="w33 left box-especialidade">
+                        <h3><i class="<?php echo $infoSite['icone2']; ?>" aria-hidden="true"></i></h3>
+                        <h4>HTML5</h4>
+                        <p><?php echo $infoSite['descricao2']; ?></p>
+                    </div><!--box-especialidade-->
+                    <div class="w33 left box-especialidade">
+                        <h3><i class="<?php echo $infoSite['icone3']; ?>" aria-hidden="true"></i></h3>
+                        <h4>JavaScript</h4>
+                        <p><?php echo $infoSite['descricao3']; ?></p>
+                    </div><!--box-especialidade-->
+                    
+                    <div class="clear"></div>
+                </div><!--center-->
 
-            <div id='depoimentos' class="w50 left panel-depoimentos">
-                <h2 class='title'>Depoimentos</h2>
-                <div class="depoimento-single">
-                    <p class='depoimentos-descricao'>"Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec."
-                    </p>
-                    <p class='nome-autor'>Lorem Ipsum</p>
-                </div>
-                <div class="depoimento-single">
-                    <p class='depoimentos-descricao'>"Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec."
-                    </p>
-                    <p class='nome-autor'>Lorem Ipsum</p>
-                </div>
-                <div class="depoimento-single">
-                    <p class='depoimentos-descricao'>"Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                Morbi auctor nunc ut ex euismod venenatis. Duis tincidunt ullamcorper ultrices. Pellentesque tempus purus justo, et consequat 
-                orci viverra nec."
-                    </p>
-                    <p class='nome-autor'>Lorem Ipsum</p>
-                </div>
-            </div>
-            <div id='servicos' class="w50 left panel-servicos">
-                <h2 class='title'>Serviços</h2>
-                <div class="servicos">
+        </section><!--especialidades-->
+
+        <section class="extras">
+
+            <div class="center">
+                <div id="depoimentos" class="w50 left depoimentos-container">
+                    <h2 class="title">Depoimentos dos nossos clientes</h2>
+                    <?php
+                        $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.depoimentos` ORDER BY order_id ASC LIMIT 3");
+                        $sql->execute();
+                        $depoimentos = $sql->fetchAll();
+                        foreach ($depoimentos as $key => $value) {
+                    ?>
+                    <div class="depoimento-single">
+                        <p class="depoimento-descricao">"<?php echo $value['depoimento']; ?>"</p>
+                        <p class="nome-autor"><?php echo $value['nome']; ?> - <?php echo $value['data']; ?></p>
+                    </div><!--depoimento-single-->
+                    <?php } ?>
+                </div><!--w50-->
+                <div id="servicos" class="w50 left servicos-container">
+                    <h2 class="title">Serviços</h2>
+                    <div class="servicos">
                     <ul>
-                        <li>
-                        Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                        Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                        </li>
-                        <li>
-                        Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                        Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                        </li>
-                        <li>
-                        Nam lobortis mi id ligula elementum, non euismod nisl gravida. Nulla ac lectus in dui viverra volutpat at eget leo. 
-                        Mauris vel egestas elit. Cras vel augue mi. In purus augue, pulvinar sit amet lobortis eu, rhoncus et ipsum. 
-                        </li>
-                        
+                        <?php
+                        $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.servicos` ORDER BY order_id ASC LIMIT 3");
+                        $sql->execute();
+                        $servicos = $sql->fetchAll();
+                        foreach ($servicos as $key => $value) {
+                        ?>
+                        <li><?php echo $value['servico']; ?></li>
+                        <?php } ?>
                     </ul>
-                
-                </div>
-            </div>
+                    </div><!--servicos-->
+                </div><!--w50-->
+                <div class="clear"></div>
+            </div><!--center-->
+        </section><!--extras-->
             <div class='clear'></div> 
         
         </div>
