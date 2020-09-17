@@ -170,7 +170,7 @@ class Painel
     }
 
     /*
-        Metodo especifico para selecionar apenas 1 registro.
+        Return apenas um registro.
     */
     public static function select($table,$query = '',$arr = ''){
         if($query != false){

@@ -1,0 +1,39 @@
+<!-- SEO -->
+        <meta name="decription" content="descrição do site">
+        <meta name="keywords" content="key,words,pso">
+        <meta name='author' content='Lucas Amado'>
+
+
+	<img src='' alt='' title=''/>
+	<a href=''/>
+
+<!--------->
+
+<!-- Processo de Indexação -->
+wwww.google.com/webmasters/tools/home
+> adicionar propriedade
+> baixar arquivo e colocar na página do site (por meio do ftp)
+
+<!--------->
+
+<!-- Google Analytics -->
+> Logar no Analytics
+> Inscreva-se
+> Adicionar informações (nome, categoria, fuso horário, nome do website etc.)
+> Colar o acompanhamento do website logo após o body em todas as páginas que você deseja que o google analíse o fluxo dos dados.
+(monitoramento em tempo real, resumo das métricas, etc.)
+
+<!--------->
+
+!-- Envio de sitemap --> 
+> Sitemap generator (google)
+> Transferir para o diretório principal do site
+> Adicionar pelo Google Analytics
+
+<!--------->
+
+
+
+
+
+
