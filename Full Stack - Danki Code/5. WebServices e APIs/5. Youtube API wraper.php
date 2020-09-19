@@ -12,5 +12,4 @@
   echo '<h3>'.$video->snippet->channelTitle.'</h3>';
   echo '<br>';
   echo '<iframe width="480" height="270" src="//www.youtube.com/embed/PfpEefKiG2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>';
-
-?>
+  ?>

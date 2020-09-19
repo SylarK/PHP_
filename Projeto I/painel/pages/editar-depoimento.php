@@ -18,7 +18,7 @@
 					Painel::alert('sucesso','O depoimento foi editado com sucesso!');
 					$depoimento = Painel::select('tb_site.depoimentos','id = ?',array($id));
 				}else{
-					Painel::alert('erro','Campos vázios não são permitidos.');
+					Painel::alert('erro','Campos vazios não são permitidos.');
 				}
 			}
 		?>
